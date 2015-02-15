@@ -3,7 +3,7 @@
 * Plugin Name: Volunteer Form
 * Plugin URL: https://www.nikcub.com/project/volunteerform
 * Description: Plugin that provides a volunteer form as a shortcode
-* Version: 0.1.3
+* Version: 0.1.6
 * Author: Nik
 * Author URI: https://www.nikcub.com/
 */
@@ -26,7 +26,7 @@
 
 $vf_db_version = '0.1.1';
 define('VF_NAME', 'volunteerform');
-define('VF_DEBUG', true);
+define('VF_DEBUG', false);
 define('VF_DB_VERSION', '0.1');
 define('VF_PATH', dirname(__FILE__));
 define('VF_URL', WP_PLUGIN_URL . '/' . VF_NAME);
